@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -19,11 +21,9 @@
     </header>
   </section>
 
-  {% if post %}
+  {% if !layoutContent %}
     {% include "components/hero.njk" %}
   {% endif %}
-
-  {{ layoutContent.post }}
 
   {{ layoutContent | safe }}
 

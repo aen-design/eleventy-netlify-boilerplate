@@ -3,8 +3,6 @@ layout: layouts/base.njk
 section: home
 ---
 
-{% if Home %}
-  {% include "components/hero.njk" %}
-{% endif %}
+{% include "components/hero.njk" %}
 
 {{ layoutContent | safe }}

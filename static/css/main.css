@@ -430,7 +430,8 @@ ul li {
 
 /*  */
 
-.post-static {
+
+.post-page {
   width: 100%;
   max-width: 1000px;
 }
@@ -440,7 +441,7 @@ ul li {
 }
 
 @media screen and (max-width: 1000px) {
-  .post-static {
+  .post-page {
     padding: 0 2rem;
   }
 }

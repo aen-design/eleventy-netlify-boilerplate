@@ -19,11 +19,10 @@
     </header>
   </section>
 
-  {% if post.title %}
+  {% if post %}
     {% include "components/hero.njk" %}
   {% endif %}
 
-  
   {{ layoutContent | safe }}
 
   <section id="portfolio">

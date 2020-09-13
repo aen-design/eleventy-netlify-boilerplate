@@ -21,10 +21,6 @@
     </header>
   </section>
 
-  {% if !layoutContent %}
-    {% include "components/hero.njk" %}
-  {% endif %}
-
   {{ layoutContent | safe }}
 
   <section id="portfolio">

@@ -3,13 +3,20 @@ layout: layouts/base.njk
 section: post
 ---
 
+
 <article>
-  <h1>{{ title }}</h1>
+<div class="row">
+  <div class="col-md-7 col-sm-6 hero">
+    <div class="hero-content">
+      <h2>{{ title }}</h2>
+      <p></p>
+    </div>
+  </div>
+  {# <div class="col-md-5 col-sm-6 hero text-center"> #}
+    {# <div class="hero-content"> <a href="https://www.designstub.com" class="btn">Visit Site <i class="fa fa-long-arrow-right"></i> </a> </div> #}
+  {# </div> #}
 
   {{ layoutContent | safe }}
 
+</div>
 </article>
-
-<nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
-</nav>

@@ -426,3 +426,11 @@ ul li {
 {
 	color:#000;
 }
+
+
+/*  */
+
+.post-static {
+  width: 100%;
+  max-width: 1000px;
+}

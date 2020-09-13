@@ -5,13 +5,11 @@ section: post
 
 
 <article class="post-page">
-  <div class="row">
-    <div class="col-md-7 col-sm-6 hero">
-      <div class="hero-content">
-        <h2>{{ title }}</h2>
-        <p>{{ summary }}</p>
-      </div>
-    </div>
+
+    <header class="post-header">
+      <h2>{{ title }}</h2>
+      <p>{{ summary }}</p>
+    </header>
 
     <div class="post-static">
       {{ layoutContent | safe }}

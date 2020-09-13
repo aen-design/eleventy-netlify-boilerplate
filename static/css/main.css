@@ -434,3 +434,13 @@ ul li {
   width: 100%;
   max-width: 1000px;
 }
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .post-static {
+    padding: 0 2rem;
+  }
+}

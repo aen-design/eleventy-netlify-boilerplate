@@ -99,7 +99,8 @@ ul li {
 	 Header
 -------------------------------------------------------------------------------*/
 #header {
-	position: fixed;
+  position: fixed;
+  top: 0;
 	width: 100%;
 	z-index: 999;
 }
@@ -134,7 +135,8 @@ ul li {
 	transition: opacity 0.5s;
 }
 .navigation {
-	float: right;
+  float: right;
+  margin-top: 1.4rem;
 }
 .navigation li {
 	display: inline-block;
@@ -430,11 +432,11 @@ ul li {
 
 /*  */
 
-
 .post-page {
   width: 100%;
   max-width: 1000px;
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-top: 20rem;
 }
 
 .post-header {

@@ -1,6 +1,27 @@
----
-layout: layouts/base.njk
-section: page
----
+<!doctype html>
+<html lang="en">
 
-{{ layoutContent | safe }}
+{% include "components/head.njk" %}
+
+<body>
+  <section class="banner" role="banner">
+    <header id="header">
+      {% include "components/nav.njk" %}
+    </header>
+  </section>
+  
+    <main class="main">
+      {{ layoutContent | safe }}
+    </main>
+
+    <div class="row">
+      {% set postslist = collections.post %}
+      {% include "components/postslist.njk" %}
+    </div>
+    </div>
+  </section>
+
+  {% include "components/footer.njk" %}
+</body>
+
+</html>

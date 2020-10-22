@@ -1,17 +1,11 @@
-<section id="hero" class="section ">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-6 hero">
-        <div class="hero-content">
-          <h1>{{ metadata.title }}</h1>
-          <h2>{{ metadata.subtitle }}</h2>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-6 hero">
-        <div class="hero-content">
-          <p> {{ metadata.bio }} </p>
-        </div>
-      </div>
-    </div>
+<section id="hero" class="hero-section">
+  <div class="hero-intro">
+  <h1 class="hero-h1">
+    {{ metadata.title }}<br>
+    {{ metadata.subtitle }}
+  </h1>
+  <p class="hero-copy">
+    {{ metadata.bio }} 
+  </p>
   </div>
 </section>

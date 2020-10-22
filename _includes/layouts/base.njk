@@ -1,58 +1,23 @@
-
-
 <!doctype html>
 <html lang="en">
 
 {% include "components/head.njk" %}
 
 <body>
-  <section class="banner" role="banner">
-    <header id="header">
-      <!-- <div class="header-content clearfix"><a class="logo" href="/"><img src="/static/images/logo.png" alt=""></a> -->
-      <div class="header-content clearfix"><a href="/">Aneta Nejman</a>
-        <nav class="navigation" role="navigation">
-          <ul class="primary-nav">
-            <li><a href="./#portfolio">Portfolio</a></li>
-            <li><a href="./about">About me</a></li>
-            <!-- <li>{{ metadata.phone }}</li>
-            <li>{{ metadata.email }}</li> -->
-          </ul>
-        </nav>
-        <a href="#" class="nav-toggle">Menu<span></span></a>
-      </div>
+  <section class="top-header">
+    <header class="header" id="header">
+      {% include "components/nav.njk" %}
     </header>
   </section>
 
-  {{ layoutContent | safe }}
+  <main class="main">
+    {{ layoutContent | safe }}
 
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <hr class="section">
-        </div>
-      </div>
-
-      <div class="row">
-
-        {% set postslist = collections.post %}
-        {% include "components/postslist.njk" %}
-
-      </div>
-    </div>
-  </section>
-
-  {% include "components/service.njk" %}
+      {% set postslist = collections.post %}
+      {% include "components/postslist.njk" %}
+  </main>
 
   {% include "components/footer.njk" %}
-
-  <!-- JS FILES -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="/static/js/bootstrap.min.js"></script>
-  <script src="/static/js/jquery.fancybox.pack.js"></script>
-  <script src="/static/js/retina.min.js"></script>
-  <script src="/static/js/modernizr.js"></script>
-  <script src="/static/js/main.js"></script>
 </body>
 
 </html>

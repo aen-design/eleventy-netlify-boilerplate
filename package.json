@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -12,7 +13,7 @@
     "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
   },
   "author": {
-    "name": "Dan Urbanowicz",
+    "name": "Dan Urbanowicz and Jakub :D",
     "email": "dan.urbanowicz@gmail.com",
     "url": "https://www.danurbanowicz.com/"
   },

@@ -1,19 +1,17 @@
-<section>
+<section class="postlist" id="portfolio">
   {% for post in postslist | reverse %}
-  <article{% if post.url == url %} data-current="current item" {% endif %}>
-    <p>
-        <div class="col-sm-6 portfolio-item"> 
-          <a href="{{ post.url }}" class="portfolio-link">
-            <div class="caption">
-              <div class="caption-content">
-                <h3>{{ post.data.title }}</h3>
-                <p>{{ post.data.summary }}</p>
-              </div>
-            </div>
-            <img src="/{{ post.data.cover }}" class="img-responsive" alt="">
-          </a>
+    <article{% if post.url == url %} data-current="current item" {% endif %} class="post">
+      <a href="{{ post.url }}" class="portfolio-link">
+      <img src="/{{ post.data.cover }}" class="post-img" alt="">
+        <div class="post-copy">
+          <h3 class="post-title">
+            {{ post.data.title }}
+          </h3>
+          <p class="post-p">
+            {{ post.data.summary }}
+          </p>
         </div>
-    </p>
+      </a>
     </article>
-    {% endfor %}
+  {% endfor %}
 </section>

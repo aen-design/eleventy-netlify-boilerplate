@@ -4,21 +4,18 @@
 {% include "components/head.njk" %}
 
 <body>
-  <section class="banner" role="banner">
+  <section class="top-header">
     <header id="header">
       {% include "components/nav.njk" %}
     </header>
-    {{ layoutContent | safe }}
   </section>
 
-  <section>
-    <main class="main">
-      <div class="row">
-        {% set postslist = collections.post %}
-        {% include "components/postslist.njk" %}
-      </div>
-    </main>
-  </section>
+  <main class="main">
+    {{ layoutContent | safe }}
+
+      {% set postslist = collections.post %}
+      {% include "components/postslist.njk" %}
+  </main>
 
   {% include "components/footer.njk" %}
 </body>

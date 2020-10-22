@@ -1,9 +1,9 @@
 ---
 layout: layouts/home.njk
-title: Home
+title: Portfolio
 date: 2016-01-01T00:00:00.000Z
-permalink: /
+permalink: /#portfolio
 eleventyNavigation:
-  key: Home
+  key: Portfolio
   order: 0
 ---

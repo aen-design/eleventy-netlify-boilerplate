@@ -8,6 +8,9 @@
           <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
         </li>
       {%- endfor %}
+      <li class="nav-item">
+        <a href="/#portfolio">Portfolio</a>
+      </li>
     </ul>
   </nav>
   <button class="nav-toggle">Menu</button>

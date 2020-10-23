@@ -21,7 +21,7 @@ body {
 
 .main {
   width: 100%;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: var(--white);
   padding: 150px 2rem 0 2rem;
@@ -43,11 +43,12 @@ body {
 }
 
 .header-content {
+  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

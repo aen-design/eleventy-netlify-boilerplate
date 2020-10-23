@@ -63,6 +63,9 @@ body {
   font-family: var(--rubik);
   text-decoration: none;
   font-size: 1rem;
+  transition: .3s;
+  will-change: transform;
+  display: block;
 }
 
 .aneta {
@@ -70,6 +73,15 @@ body {
   text-decoration: none;
   font-size: 1.125rem;
   color: var(--black);
+  transition: .3s;
+  will-change: transform text-decoration;
+  display: block;
+}
+
+.aneta:hover,
+.nav-item a:hover {
+  transform: translateY(.2rem);
+  text-decoration: underline;
 }
 
 .nav-toggle {
@@ -129,7 +141,7 @@ body {
 }
 
 .portfolio-link:hover {
-  transform: translateY(-.7rem);
+  transform: translateY(.5rem);
 }
 
 .post-title {
@@ -144,13 +156,32 @@ body {
   font-weight: 300;
   font-size: 1rem;
   line-height: 19px;
+  margin-bottom: 0;
 }
-
 
 .post-img {
   width: 439px;
   height: 246px;
   object-fit: cover;
+}
+
+.post-taglist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.post-tagitem {
+  font-family: var(--work-sans);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.post-tagitem p::before {
+  content: '#';
 }
 
 /* footer */

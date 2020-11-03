@@ -11,6 +11,17 @@
             {{ post.data.summary }}
           </p>
         </div>
+        <div class="post-tags">
+          <ul class="post-taglist">
+            {% for tag in post.data.tags %}
+              {%- if loop.index != 1 -%}
+                <li class="post-tagitem">
+                  <p>{{ tag }}</p>
+                </li>
+              {%- endif -%}
+            {% endfor %}
+          </ul>
+        </div>
       </a>
     </article>
   {% endfor %}

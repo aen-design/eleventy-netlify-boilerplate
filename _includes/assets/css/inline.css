@@ -215,6 +215,7 @@ body {
 .footer-info {
   text-align: center;
   font-family: var(--work-sans);
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 960px) {
@@ -224,6 +225,5 @@ body {
   .post-img {
     height: auto;
     object-fit: contain;
-    margin-bottom: 40px;
   }
 }

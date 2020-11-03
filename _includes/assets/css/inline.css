@@ -2,6 +2,7 @@
   --black: #000;
   --white: #fff;
   --gray: #e0e0e0;
+  --light-gray: #F4F4F4 ;
   --space-mono: 'Space Mono', sans-serif;
   --work-sans: 'Work Sans', sans-serif;
   --rubik: 'Rubik', sans-serif;
@@ -16,7 +17,7 @@ body {
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: var(--white);
+  background-color: var(--light-gray);
 }
 
 .main {

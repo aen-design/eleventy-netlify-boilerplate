@@ -2,7 +2,8 @@
   --black: #000;
   --white: #fff;
   --gray: #e0e0e0;
-  --light-gray: #fafafa ;
+  --accent: #870028;
+  --light-gray: #fafafa;
   --space-mono: 'Space Mono', sans-serif;
   --work-sans: 'Work Sans', sans-serif;
   --rubik: 'Rubik', sans-serif;
@@ -81,9 +82,15 @@ body {
 
 .aneta:hover,
 .nav-item a:hover {
+  color: var(--accent);
+}
+
+/*
+.aneta:hover,
+.nav-item a:hover {
   transform: translateY(.2rem);
   text-decoration: underline;
-}
+} */
 
 .nav-toggle {
   display: none;

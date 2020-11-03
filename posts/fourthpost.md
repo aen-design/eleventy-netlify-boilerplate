@@ -1,12 +1,11 @@
 ---
-title: This is my fourth post
-date: 2017-02-03T00:00:00.000Z
+title: Psychologia edukacyjna
+date: 2020-11-03T17:22:31.520Z
 author: John Doe
-cover: static/images/portfolio/work-4.jpg
 summary: Why contemplating our mortality can be a powerful catalyst for change
+cover: static/images/portfolio/psychologia-edukacyjna.jpg
 tags:
-  - drzewa
-  - ludzie
+  - UX Research
 ---
 Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

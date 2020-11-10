@@ -8,5 +8,3 @@ eleventyNavigation:
   key: About me
   order: 1
 ---
-
-raz dwa trzy

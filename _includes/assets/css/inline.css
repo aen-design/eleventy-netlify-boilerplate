@@ -85,13 +85,6 @@ body {
   color: var(--accent);
 }
 
-/*
-.aneta:hover,
-.nav-item a:hover {
-  transform: translateY(.2rem);
-  text-decoration: underline;
-} */
-
 .nav-toggle {
   display: none;
 }
@@ -175,6 +168,7 @@ body {
 }
 
 .post-taglist {
+  margin-top: 0;
   list-style: none;
   padding: 0;
   display: flex;
@@ -200,6 +194,7 @@ body {
 }
 
 .post-header-h2 {
+  font-family: var(--space-mono);
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 2rem;
@@ -234,6 +229,21 @@ body {
 .post-page + .postlist .post-img {
   object-fit: contain;
   height: 140px;
+}
+
+.home .post-p {
+  display: block;
+  min-height: 70px;
+}
+
+.post-tagitem p {
+  margin-top: 0;
+}
+
+.row .postlist .post-p,
+.post-page + .postlist .post-p {
+  display: block;
+  min-height: 90px;
 }
 
 /* footer */

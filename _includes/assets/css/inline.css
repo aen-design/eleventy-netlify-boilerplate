@@ -219,8 +219,21 @@ body {
   margin: 0 auto;
 }
 
+.row .postlist,
 .post-page + .postlist {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.row .postlist .post-title,
+.post-page + .postlist .post-title {
+  display: block;
+  min-height: 3rem;
+}
+
+.row .postlist .post-img,
+.post-page + .postlist .post-img {
+  object-fit: contain;
+  height: 140px;
 }
 
 /* footer */

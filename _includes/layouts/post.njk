@@ -5,14 +5,14 @@ section: post
 <article class="post-page">
 
     <header class="post-header">
-      <h2>{{ title }}</h2>
-      <h3>{{ subtitle }}</h3>
-      <p>{{ summary }}</p>
+      <h2 class="post-header-h2">{{ title }}</h2>
+      <p class="post-subtitle">{{ subtitle }}</p>
+      <p class="post-summary">{{ summary }}</p>
     </header>
 
     <div class="post-static">
       {{ layoutContent | safe }}
     </div>
 
-  </div>
+  <hr>
 </article>

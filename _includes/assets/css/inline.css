@@ -70,6 +70,16 @@ body {
   display: block;
 }
 
+/* stupid active state solution */
+
+.home .home-link {
+  color: var(--accent);
+}
+
+.about .about-link {
+  color: var(--accent);
+}
+
 .aneta {
   font-family: var(--space-mono);
   text-decoration: none;
@@ -84,13 +94,6 @@ body {
 .nav-item a:hover {
   color: var(--accent);
 }
-
-/*
-.aneta:hover,
-.nav-item a:hover {
-  transform: translateY(.2rem);
-  text-decoration: underline;
-} */
 
 .nav-toggle {
   display: none;
@@ -134,7 +137,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 .post {
@@ -175,22 +178,82 @@ body {
 }
 
 .post-taglist {
+  margin-top: 0;
   list-style: none;
   padding: 0;
   display: flex;
   gap: 1rem;
 }
 
+.about-content,
+.post-page,
 .post-tagitem {
   font-family: var(--work-sans);
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
 }
 
 .post-tagitem p::before {
   content: '#';
+}
+
+.post-page hr {
+  margin: 8rem auto;
+}
+
+.post-header-h2 {
+  font-family: var(--space-mono);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.post-summary {
+  font-size: 1.2rem;
+}
+
+.post-static p,
+.post-static {
+  margin-top: 3rem;
+}
+
+.post-static p img {
+  display: block;
+  margin: 0 auto;
+}
+
+.row .postlist,
+.post-page + .postlist {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.row .postlist .post-title,
+.post-page + .postlist .post-title {
+  display: block;
+  min-height: 3rem;
+}
+
+.row .postlist .post-img,
+.post-page + .postlist .post-img {
+  object-fit: contain;
+  height: 140px;
+}
+
+.home .post-p {
+  display: block;
+  min-height: 70px;
+}
+
+.post-tagitem p {
+  margin-top: 0;
+}
+
+.row .postlist .post-p,
+.post-page + .postlist .post-p {
+  display: block;
+  min-height: 90px;
 }
 
 /* footer */

@@ -8,5 +8,3 @@ eleventyNavigation:
   key: About me
   order: 1
 ---
-
-## about page

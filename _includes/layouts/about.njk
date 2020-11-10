@@ -3,7 +3,7 @@
 
 {% include "components/head.njk" %}
 
-<body>
+<body class="about">
   <section class="top-header">
     <header class="header" id="header">
       {% include "components/nav.njk" %}
@@ -11,6 +11,9 @@
   </section>
 
     <main class="main">
+      <h1 class="hero-h1">
+        About me
+      </h1>
       <section class="about-content">
         {{ layoutContent | safe }}
       </section>

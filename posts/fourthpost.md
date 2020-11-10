@@ -1,6 +1,7 @@
 ---
 title: Psychologia edukacyjna
 date: 2020-11-03T17:22:31.520Z
+author: John Doe
 summary: Why contemplating our mortality can be a powerful catalyst for change
 cover: static/images/portfolio/psychologia-edukacyjna.jpg
 tags:

@@ -90,11 +90,6 @@ body {
   display: block;
 }
 
-.aneta:hover,
-.nav-item a:hover {
-  color: var(--accent);
-}
-
 .nav-toggle {
   display: none;
 }
@@ -298,6 +293,13 @@ body {
   .post-img {
     height: auto;
     object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .aneta:hover,
+  .nav-item a:hover {
+    color: var(--accent);
   }
 }
 

@@ -302,6 +302,11 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
+  .hero-h1 {
+    font-size: 2.2rem;
+  }
+
   .header-content {
     flex-direction: column;
   }

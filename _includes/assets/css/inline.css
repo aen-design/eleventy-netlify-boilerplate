@@ -29,6 +29,10 @@ body {
   padding: 150px 2rem 0 2rem;
 }
 
+#portfolio {
+  scroll-margin-top: 150px;
+}
+
 /* navbar */
 .header {
   height: 80px;

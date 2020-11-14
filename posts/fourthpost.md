@@ -5,7 +5,9 @@ author: John Doe
 summary: Why contemplating our mortality can be a powerful catalyst for change
 cover: static/images/portfolio/psychologia-edukacyjna.jpg
 tags:
-  - "#UX Research#Google Spreadsheets#Remote IDIs"
+  - UX Research
+  - Google Spreadsheets
+  - Remote IDIs
 ---
 Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+{% include "components/head.njk" %}
+
+<body class="post">
+  <section class="top-header">
+    <header class="header" id="header">
+      {% include "components/nav.njk" %}
+    </header>
+  </section>
+
+  <main class="main">
+    {{ layoutContent | safe }}
+
+      {% set postslist = collections.post %}
+      {% include "components/postslist.njk" %}
+  </main>
+
+  {% include "components/footer.njk" %}
+</body>
+
+</html>

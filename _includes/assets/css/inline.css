@@ -29,6 +29,10 @@ body {
   padding: 150px 2rem 0 2rem;
 }
 
+#portfolio {
+  scroll-margin-top: 150px;
+}
+
 /* navbar */
 .header {
   height: 80px;
@@ -88,11 +92,6 @@ body {
   transition: .3s;
   will-change: transform text-decoration;
   display: block;
-}
-
-.aneta:hover,
-.nav-item a:hover {
-  color: var(--accent);
 }
 
 .nav-toggle {
@@ -208,6 +207,7 @@ body {
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 2rem;
+  line-height: 2rem;
 }
 
 .post-summary {
@@ -222,6 +222,7 @@ body {
 .post-static p img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 .home .post-p {
@@ -231,12 +232,6 @@ body {
 
 .post-tagitem p {
   margin-top: 0;
-}
-
-.row .postlist .post-p,
-.post-page + .postlist .post-p {
-  display: block;
-  min-height: 90px;
 }
 
 /* footer */
@@ -265,7 +260,9 @@ body {
   margin-bottom: 40px;
 }
 
-
+.footer-header {
+  font-size: 1.2rem;
+}
 
 @media screen and (min-width: 960px) {
   .row .postlist,
@@ -284,6 +281,12 @@ body {
     object-fit: contain;
     height: 140px;
   }
+
+  .row .postlist .post-p,
+  .post-page + .postlist .post-p {
+    display: block;
+    min-height: 90px;
+  }
 }
 
 
@@ -294,5 +297,27 @@ body {
   .post-img {
     height: auto;
     object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .aneta:hover,
+  .nav-item a:hover {
+    color: var(--accent);
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .hero-h1 {
+    font-size: 2.2rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+  .nav-list {
+    padding: 0;
+    margin-bottom: 0;
   }
 }

@@ -47,6 +47,19 @@ body {
   margin-bottom: 2rem;
 }
 
+.h3 {
+  font-family: var(--space-mono);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 19px;
+  
+  /* font-family: var(--rubik);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px; */
+}
+
 .copy {
   font-family: var(--work-sans);
   font-style: normal;

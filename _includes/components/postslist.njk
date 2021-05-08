@@ -4,10 +4,10 @@
       <a href="{{ post.url }}" class="portfolio-link">
       <img src="/{{ post.data.cover }}" class="post-img" alt="">
         <div class="post-copy">
-          <h3 class="post-title">
+          <h3 class="h3">
             {{ post.data.title }}
           </h3>
-          <p class="post-p">
+          <p class="post-p copy">
             {{ post.data.summary }}
           </p>
         </div>
@@ -16,7 +16,7 @@
             {% for tag in post.data.tags %}
               {%- if loop.index != 1 -%}
                 <li class="post-tagitem">
-                  <p>{{ tag }}</p>
+                  <p class="copy>{{ tag }}</p>
                 </li>
               {%- endif -%}
             {% endfor %}

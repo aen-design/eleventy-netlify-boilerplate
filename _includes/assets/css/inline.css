@@ -70,15 +70,14 @@ body {
   display: block;
 }
 
-/* stupid active state solution */
-
+/* stupid active state solution 
 .home .home-link {
   color: var(--accent);
 }
 
 .about .about-link {
   color: var(--accent);
-}
+} */
 
 .aneta {
   font-family: var(--space-mono);

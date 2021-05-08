@@ -100,8 +100,11 @@ body {
 
 
 /* hero section */
-
 .hero-section {
+  height: 100vh;
+}
+
+.hero-intro {
   height: 100vh;
 }
 

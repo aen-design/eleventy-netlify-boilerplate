@@ -9,28 +9,7 @@
   --rubik: 'Rubik', sans-serif;
 }
 
-html,
-body {
-  width: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: var(--light-gray);
-}
-
-.main {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: var(--light-gray);
-  padding: 150px 1rem 0 1rem;
-}
-
-
-/* texts */
+/* texts ///////////////////////////////////////////*/
 .h1 {
   font-family: var(--space-mono);
   font-style: normal;
@@ -51,7 +30,7 @@ body {
   font-family: var(--space-mono);
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 19px;
   
   /* font-family: var(--rubik);
@@ -69,6 +48,26 @@ body {
   max-width: 550px;
 }
 
+/* ///////////////////////////////////////////*/
+html,
+body {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--light-gray);
+}
+
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--light-gray);
+  padding: 150px 1rem 0 1rem;
+}
 
 /* navbar */
 .header {
@@ -103,7 +102,6 @@ body {
 
 .nav-item a {
   color: var(--black);
-  font-family: var(--space-mono);
   text-decoration: none;
   font-size: 1rem;
   transition: .3s;
@@ -121,9 +119,7 @@ body {
 } */
 
 .aneta {
-  font-family: var(--space-mono);
   text-decoration: none;
-  font-size: 1.125rem;
   color: var(--black);
   transition: .3s;
   will-change: transform text-decoration;
@@ -150,27 +146,27 @@ body {
 }
 
 .hero-h1 {
-  font-family: var(--space-mono);
+  /*font-family: var(--space-mono);
   font-style: normal;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2.5rem; */
   margin-bottom: 2rem;
 }
 
 .hero-h2 {
-  font-family: var(--space-mono);
+  /* font-family: var(--space-mono);
   font-style: normal;
   font-weight: normal;
-  font-size: 2.00rem;
+  font-size: 2.00rem; */
   margin-bottom: 2rem;
 }
 
 .hero-copy {
-  font-family: var(--work-sans);
+  /*font-family: var(--work-sans);
   font-style: normal;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 19px;
+  line-height: 19px; */
   max-width: 550px;
 }
 
@@ -199,7 +195,6 @@ body {
 }
 
 .post-title {
-  font-family: var(--rubik);
   font-weight: 400;
   font-size: 1rem;
   line-height: 19px;
@@ -246,10 +241,10 @@ body {
 }
 
 .post-header-h2 {
-  font-family: var(--space-mono);
+  /*font-family: var(--space-mono);
   margin-top: 3rem;
+  font-size: 2rem;*/
   margin-bottom: 2rem;
-  font-size: 2rem;
 }
 
 .post-summary {
@@ -286,8 +281,8 @@ body {
   width: 90%;
   color: var(--white);
   background-color: var(--black);
-  font-family: var(--space-mono);
-  font-weight: normal;
+  /*font-family: var(--space-mono);
+  font-weight: normal;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,10 +298,8 @@ body {
 
 .footer-info {
   text-align: center;
-  font-family: var(--work-sans);
   margin-bottom: 40px;
 }
-
 
 
 @media screen and (min-width: 960px) {

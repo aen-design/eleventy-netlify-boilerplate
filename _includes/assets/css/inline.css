@@ -127,7 +127,6 @@ body {
 }
 
 .aneta:hover,
-.footer:hover,
 .nav-item a:hover {
   color: var(--accent);
 }

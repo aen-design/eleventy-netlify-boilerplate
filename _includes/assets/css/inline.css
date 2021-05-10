@@ -30,8 +30,13 @@ body {
   padding: 150px 1rem 0 1rem;
 }
 
+/* links ///////////////////////////////////////////*/
 a:link {
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
 }
 
 /* texts ///////////////////////////////////////////*/

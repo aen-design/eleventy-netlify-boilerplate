@@ -9,6 +9,31 @@
   --rubik: 'Rubik', sans-serif;
 }
 
+/* ///////////////////////////////////////////*/
+html,
+body {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--light-gray);
+}
+
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--light-gray);
+  padding: 150px 1rem 0 1rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 /* texts ///////////////////////////////////////////*/
 .h1 {
   font-family: var(--space-mono);
@@ -46,27 +71,6 @@
   font-size: 1rem;
   line-height: 19px;
   max-width: 550px;
-}
-
-/* ///////////////////////////////////////////*/
-html,
-body {
-  width: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: var(--light-gray);
-}
-
-.main {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: var(--light-gray);
-  padding: 150px 1rem 0 1rem;
 }
 
 /* navbar */
